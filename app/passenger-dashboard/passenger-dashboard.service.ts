@@ -17,5 +17,4 @@ export class PassengerDashboardService {
       .get(PASSENGER_API)
       .map((response: Response) => response.json());
   }
-
 }
